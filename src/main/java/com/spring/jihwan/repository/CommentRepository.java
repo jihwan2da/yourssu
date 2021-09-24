@@ -1,0 +1,7 @@
+package com.spring.jihwan.repository;
+
+import com.spring.jihwan.domain.Comment;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CommentRepository extends JpaRepository<Comment,Long> {
+}
